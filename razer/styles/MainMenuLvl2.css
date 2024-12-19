@@ -1,0 +1,113 @@
+.MainMenuLvl2{
+    height: 108.59px;
+    background-color:#1f1f1f ;
+}
+.MainMenuLvl2__container{
+
+    height: 108.59px;
+    /* margin: 0 262px; */
+    display: flex;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.Lvl2Container__content{
+    height: 108.59px;
+    display: flex;
+    /* margin: 0 111.188px; */
+    margin:  0 auto;
+    padding: 0 0 25px 0;
+}
+.Lvl2Container__content-item{
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+    align-items: center;
+    
+}
+.Lvl2Container__content-item:hover{
+    cursor: pointer;
+    
+}
+.container__item-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    height: 40px;
+    width: 40px;
+    margin-bottom: 10px;
+}
+.Lvl2Container__content-item:hover .container__item-text,
+.Lvl2Container__content-item:hover .container__item-text-down,
+.Lvl2Container__content-item:hover .container__item-text-down2 {
+    color: #44d62c; /* Change text color to green */
+}
+.container__item-icon:hover{
+
+}
+.container__item-text{
+    color: #ffff;
+    font-size: 14px;
+    font-family: RazerF5-Semibold,sans-serif;
+}
+.container__item-text:hover{
+    /* color: #44d62c; */
+}
+.container__item-text-down{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 33px;
+  
+    color: #ffff;
+    font-size: 14px;
+    font-family: RazerF5-Semibold,sans-serif;
+}
+
+.container__item-text-down2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 78px;
+    height: 33px;
+  text-align: center;
+    color: #ffff;
+    font-size: 14px;
+    font-family: RazerF5-Semibold,sans-serif;
+}
+@media screen and (max-width: 1366px) {
+    .MainMenuLvl2__container{
+        height: 108.59px;
+        margin: 0 125px;
+        padding: 0 10px;
+    }
+    .Lvl2Container__content{
+        height: 108.59px;
+        display: flex;
+        margin: 0;
+        padding: 0 0 25px 0;
+    }
+
+
+}
+@media screen and (max-width: 1199px) {
+    .MainMenuLvl2__container{
+        height: 108.59px;
+        margin: 0 112px;
+        padding: 0 10px;
+        width: 960px;
+    }
+    .Lvl2Container__content{
+        width: 950px;
+        height: 108.59px;
+        display: flex;
+        margin: 0 25px;
+        padding: 0 0 25px 0;
+    }
+    .Lvl2Container__content-item{
+       width: 80px;
+       height: 83px;
+        
+    }
+
+}

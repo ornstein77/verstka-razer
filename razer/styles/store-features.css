@@ -1,0 +1,112 @@
+.store-features{
+    height: 268.391px;
+}
+.store-features__container{
+    /* width:1320px; */
+    height: 268.391px;
+    padding: 50px 10px 50px 10px;
+    /* margin: 0 262px; */
+    justify-content: center;
+}
+.store-features-title{
+    padding: 0 10px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: RazerF5-Regular,sans-serif;
+    font-size: 32px;
+}
+.store-features__grid{
+    /* width: 1320px; */
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 16px;
+}
+.store-features__item{
+    
+    display: flex;
+    justify-content: center;
+    position: relative;
+    /* align-items: center; */
+    width: 261.22px;
+    height: 64px;
+    padding: 0 20px 10px 55px;
+    margin: 0 13px;
+    
+    box-sizing: border-box;
+}
+.border{
+    border-right: 1px solid #888;
+}
+.store-features__item-svg{
+    position: absolute;
+    height: 45px;
+    width: 45px;
+    margin-bottom: 10px;
+    left: 0;
+    fill: #44d62c;
+    /* margin-right: 10px; */
+    
+}
+.store-features__item-title{
+   
+
+    
+
+    color: #fff;
+    font-size: 12px;
+    font-family: RazerF5-Regular,sans-serif;
+}
+.store-features__item-desc{
+    
+    
+
+    /* text-align:start; */
+    font-family: RazerF5-Regular,sans-serif;
+    font-size: 12px;
+    color:#888888;
+   
+}
+@media screen and (max-width: 1366px) {
+    .store-features{
+       
+       
+        height: 268.391px;
+    }
+    .store-features__container{
+        display: block;
+        
+      
+      
+    }
+    
+    
+}
+@media screen and (max-width: 1199px) {
+    .store-features{
+       
+        
+        height: 268.391px;
+    }
+    .store-features__container{
+        display: block;
+        
+       
+    }
+    .store-features-title{
+        padding: 0 10px;
+    }
+    .store-features__grid{
+       
+        height: 64px;
+        display: flex;
+       
+        justify-content: center;
+        margin-top: 50px;
+        margin-bottom: 16px;
+    }
+    
+}

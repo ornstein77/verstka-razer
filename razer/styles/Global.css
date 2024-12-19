@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-weight: 400;
+   
+    
+    
+    
+}
+@font-face {
+    font-family: "Roboto";
+    src: url(../assets/fonts/Roboto-Light.ttf);
+    font-weight: 300;
+}
+@font-face {
+    font-family: "RazerF5-Regular";
+    src: url(../assets/fonts/RazerF5-Regular.woff2);
+    font-weight: 300;
+}
+@font-face {
+    font-family: "RazerF5-Semibold";
+    src: url(../assets/fonts/RazerF5-Semibold.woff2);
+    font-weight: 300;
+}
+@font-face {
+    font-family: "RazerF5-Bold";
+    src: url(../assets/fonts/RazerF5-Bold.woff2);
+    font-weight: 300;
+}
+@font-face {
+    font-family: "RazerF5-Thin";
+    src: url(../assets/fonts/RazerF5-Thin.woff2);
+    font-weight: 300;
+}
+
+
+
+
+
+
+
+
+.store-page{
+    height:3441.630px ;
+    background-color:#1f1f1f ;
+}
+@media screen and (max-width: 1366px) {
+    .store-page{
+        height:3540.630px ;
+        background-color:#1f1f1f ;
+    }
+}
+@media screen and (max-width: 1199px) {
+    .store-page{
+        height:3360.630px ;
+        background-color:#1f1f1f ;
+    }
+}

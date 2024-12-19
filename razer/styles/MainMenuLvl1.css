@@ -1,0 +1,72 @@
+.MainMenuLvl1{
+    height: 65px;
+    background-color:#1f1f1f ;
+}
+.MainMenuLvl1__container{
+    display: flex;
+    /* width:1500px ; */
+    
+    margin: 0 auto;
+    height: 65px;
+    padding: 0 10px;
+}
+.Lvl1Container__content{
+    display: flex;
+    padding: 15px 0;
+    /* margin: 0 324px; */
+    margin: 0 auto;
+    align-items: center;
+    overflow-x: auto;
+    color:#ffff ;
+    /* gap: 30px; */
+    font-size: 13px;
+    font-family:RazerF5-Semibold,sans-serif;
+}
+
+.greenn{
+color: #44d62c;
+/* padding-left: 13px; */
+}
+.Lvl1Container__content-item{
+    padding:  0 15px;
+}
+.Lvl1Container__content-item:hover{
+    color: #44d62c;
+    cursor: pointer;
+   
+}
+
+@media screen and (max-width: 1366px) {
+    .MainMenuLvl1__container{
+        
+        /* margin: 0 125px ; */
+        /* width: 1100px; */
+        height: 65px;
+        /* padding: 0 10px; */
+        
+    }
+    
+
+
+}
+@media screen and (max-width: 1199px) {
+    .MainMenuLvl1__container{
+        
+        /* margin: 0 80px ; */
+        /* width: 1100px; */
+        height: 65px;
+        /* padding: 0 10px; */
+        
+    }
+    .Lvl1Container__content{
+       
+        font-size: 13px;
+        /* margin: 0 120px; */
+        padding: 10px 0;
+    }
+    
+        
+      
+    
+
+}

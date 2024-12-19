@@ -1,0 +1,214 @@
+.banner{
+    position: relative;
+    display: flex;
+    height: 448.844px;
+    margin-bottom: 60px;
+    /* width: 1864px; */
+    /* width: auto; */
+    width: 100%;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: black;
+    border-bottom: 2px solid #44D62c;
+}
+.banner__content-image{
+    /* width: 1864px; */
+    width: 100%;
+    height: 448.844px;
+    background-color: black;
+    
+}
+#bannerr{
+   
+   display: flex;
+    width: 100%;
+    /* width: auto; */
+    height: 100%;
+    object-fit: cover;
+    background-color: black;
+}
+.banner__content-text{
+    /* position: absolute;
+    height: 366.844px;
+    margin: 0 262px;
+    padding: 0 0 0 15px;
+    z-index: 1; */
+    position: absolute;
+    
+    display: flex;
+    flex-direction: row;
+    /* align-items: center;  */
+    
+    
+    justify-content: flex-end;
+    /* width: 1340px; */
+    top: 30px;
+
+    z-index: 1; 
+    height: 366.844px; 
+    /* margin: 0 262px;  */
+    right: 200px;
+    padding: 0 0 0 15px; 
+   
+    
+}
+.bannerContent__text-box{
+    z-index: 1; 
+    width: 400px;
+    height: 366.84px;
+    text-align: left
+}
+.text__box-title{
+    color:#44D62c;
+    font-size: 30px;
+    white-space: nowrap;
+    font-family: RazerF5-Regular,sans-serif;
+}
+.text__box-desc{
+    font-size: 19px;
+    color: #ffff;
+    font-family:RazerF5-Thin,sans-serif;
+    margin-top: 10px;
+}
+.text__box-info{
+    font-size: 19px;
+    font-family: RazerF5-Regular,sans-serif;
+    color: rgb(136, 136, 136);
+    line-height: 24px;
+    
+}
+.text__box-btn{
+    margin-top: 23px;
+    
+    
+}
+#banner-btn{
+    width: 144px;
+    height: 40px;
+    background-color: #44D62c;
+    font-size: 17px;
+    font-family: RazerF5-Semibold
+    ,sans-serif;
+   
+    border-radius: 2px;
+    border:none;
+}
+#banner-btn:hover{
+    cursor: pointer;
+    background-color: #00ff00;
+}
+.banner__bullets{
+    display: flex;
+    /* width: 1864px; */
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+   
+    bottom:3px;
+   
+    z-index: 1; 
+}
+.banner__bullets-btn{
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+   
+    width: 30px;
+    height: 20px;
+    margin: 0 6px 0 0;
+}
+.banner__bullets-btn:hover{
+    cursor: pointer;
+}
+.banner__bullets-btn-item{
+    width: 30px;
+    height: 5px;
+    background-color: #8888;
+    border-radius: 5px;
+}
+.greenBul{
+    background-color: #44D62c;
+}
+/* .banner__line{
+    height: 2px;
+    width: 1864px;
+    background-color: #44D62c;
+} */
+@media screen and (max-width: 1366px) {
+    
+    .banner__content-image{
+        /* width: 1864px; */
+        
+        height: 448.844px;
+        background-color: black;
+        
+    }
+    #bannerr{
+       
+       display: flex;
+        
+        /* width: auto; */
+        height: 100%;
+        object-fit: cover;
+       
+    }
+    .banner__content-text{
+        justify-content: flex-end;
+        
+        top: 30px;
+        right: 20px;
+        z-index: 1; 
+        height: 366.844px; 
+        /* margin: 0 125px;  */
+        padding: 0 0 0 15px; 
+        
+    }
+    
+}
+@media screen and (max-width: 1199px) {
+    .banner{
+        
+        height: 396px;
+    }
+    .banner__content-image{
+       
+        height: 394.844px;
+        object-fit: cover;
+    }
+    #bannerr{
+        display: flex;
+         
+         height: 100%;
+         object-fit: cover;
+        
+     }
+    .banner__content-text{
+        justify-content: flex-end;
+        width: 940px;
+        top: 30px;
+        right: 10px;
+        z-index: 1; 
+        height: 314.844px; 
+        margin: 0 112px; 
+        padding: 0 0 0 15px; 
+        
+    }
+    .banner__content{
+        width: 1184px;
+    }
+    .banner__bullets{
+        width: 1184px;
+        height: 20px;
+    }
+    .text__box-info{
+        
+        line-height: 20px;
+        
+    }
+    .text__box-desc{
+        
+        margin-top: 0px;
+    }
+}
